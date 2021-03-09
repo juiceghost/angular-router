@@ -8,12 +8,14 @@ import { HeroesModule } from './heroes/heroes.module';
 
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TemplateFormComponent } from './template-form/template-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CrisisListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TemplateFormComponent
   ],
   imports: [
     BrowserModule,
